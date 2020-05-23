@@ -1,0 +1,100 @@
+{
+  "products": [
+    {
+      "id": 5,
+      "img": { "url": "/shop/imgs/Products/black-shirt-o.jpg" },
+      "name": "Black Shirt O",
+      "price": 24.99
+    },
+    {
+      "id": 6,
+      "img": { "url": "/shop/imgs/Products/black-shirt-x.jpg" },
+      "name": "Black Shirt X",
+      "price": 24.99
+    },
+    {
+      "id": 7,
+      "img": { "url": "/shop/imgs/Products/blue-shirt.webp" },
+      "name": "Blue Shirt",
+      "price": 22.99
+    },
+    {
+      "id": 8,
+      "img": { "url": "/shop/imgs/Products/green-shirt-x.jpg" },
+      "name": "Green Shirt O/X",
+      "price": 24.99
+    },
+    {
+      "id": 9,
+      "img": { "url": "/shop/imgs/Products/light-green-shirt.jpg" },
+      "name": "Light-Green Shirt",
+      "price": 24.99
+    },
+    {
+      "id": 10,
+      "img": { "url": "/shop/imgs/Products/GREY_1_900x.jpg" },
+      "name": "Grey Shirt",
+      "price": 24.99
+    },
+    {
+      "id": 11,
+      "img": { "url": "/shop/imgs/Products/grey-shirt-o.jpg" },
+      "name": "Grey Shirt O",
+      "price": 24.99
+    },
+    {
+      "id": 12,
+      "img": { "url": "/shop/imgs/Products/grey-shirt-x.jpg" },
+      "name": "Grey Shirt X",
+      "price": 24.99
+    },
+    {
+      "id": 13,
+      "img": { "url": "/shop/imgs/Products/pink-shirt.jpg" },
+      "name": "Pink Shirt",
+      "price": 32.99
+    },
+    {
+      "id": 14,
+      "img": { "url": "/shop/imgs/Products/red-shirt.jpg" },
+      "name": "Red Shirt",
+      "price": 32.99
+    },
+    {
+      "id": 15,
+      "img": { "url": "/shop/imgs/Products/white-shirt-o.jpg" },
+      "name": "White Shirt O",
+      "price": 24.99
+    },
+    {
+      "id": 16,
+      "img": { "url": "/shop/imgs/Products/white-shirt-x.jpg" },
+      "name": "White Shirt X",
+      "price": 24.99
+    },
+    {
+      "id": 17,
+      "img": { "url": "/shop/imgs/Products/black-houdie.jpg" },
+      "name": "black houdie",
+      "price": 24.99
+    },
+    {
+      "id": 18,
+      "img": { "url": "/shop/imgs/Products/long-black-sleve-shirt.jpg" },
+      "name": "long black sleve shirt",
+      "price": 24.99
+    },
+    {
+      "id": 19,
+      "img": { "url": "/shop/imgs/Products/long-grey-sleve-shirt.jpg" },
+      "name": "long grey sleve shirt",
+      "price": 24.99
+    },
+    {
+      "id": 20,
+      "img": { "url": "/shop/imgs/Products/black-womans-sport-bra.jpg" },
+      "name": "Black Women Sport Bra",
+      "price": 30.99
+    }
+  ]
+}

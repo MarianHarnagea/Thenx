@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "id": 21,
+      "img": { "url": "/shop/imgs/Products/black_womans_leggings.jpg" },
+      "name": "Black Women Sport Leggings",
+      "price": 35.99
+    },
+    {
+      "id": 22,
+      "img": { "url": "/shop/imgs/Products/black-joggers.jpg" },
+      "name": "black joggers",
+      "price": 39.99
+    },
+    {
+      "id": 23,
+      "img": { "url": "/shop/imgs/Products/grey-joggers.jpg" },
+      "name": "grey joggers",
+      "price": 39.99
+    },
+    {
+      "id": 24,
+      "img": { "url": "/shop/imgs/Products/white-joggers.jpg" },
+      "name": "white joggers",
+      "price": 39.99
+    }
+  ]
+}

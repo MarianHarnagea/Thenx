@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>THENX</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" href="./styles/training.css">
+  </head>
+  <body>
+    <!--Navigation-->
+    <nav
+      class="navbar navbar-expand-lg fixed-top navbar-dark"
+      style="background-color: rgb(0, 0, 0);"
+    >
+      <a href="index.html" class="navbar-brand">
+        <img
+          class="d-inline-block align-top"
+          src="https://dfd5gcc6b7vw5.cloudfront.net/assets/logo-8a7bb8b7de46c1b7163081c1d735c55860cf8d83689ad0a98a1865826a82b7cc.svg"
+          alt="Thenx"
+          width="34"
+          height="34"
+        />
+      </a>
+      <div>
+        <a href="membership.html" class="btn btn-primary py-1 mr-1 d-lg-none"
+          >Buy Membership</a
+        >
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarlinks"
+          aria-controls="navbarlinks"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+      <div id="navbarlinks" class="navbar-collapse collapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="training.html">TRAINING</a>
+          </li>
+          <li class="nav-item separator mx-2"></li>
+          <li class="nav-item">
+            <a class="nav-link" href="./shop/shop.html">SHOP</a>
+          </li>
+          <li class="nav-item separator mx-2"></li>
+          <a href="membership.html" class="btn btn-primary py-1 mr-1 d-none d-lg-block"
+            >Buy Membership</a
+          >
+          <li class="nav-item separator mx-2"></li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Log In</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!--Navigation End-->
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col">
+                <div id="flash">
+                    <div class="row justify-content-center">
+                        <div class="col-5"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Main-->
+    <div class="main">
+      <!--Header-->
+      <div class="header">
+        <div class="container">
+          <section
+            class="inner row justify-content-center align-items-center text-center"
+          >
+            <div class="col">
+              <h1 class="display-5 text-white">Workouts & Programs</h1>
+              <p class="lead text-white">Workouts, Programs and Technique Guides that just work.</p>
+            </div>
+          </section>
+        </div>
+      </div>
+      <!--Header End-->
+      
+<!-- Modal -->
+
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog " role="document">
+    <div class="modal-content">
+
+      
+      <div class="modal-body">
+
+       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>        
+        <!-- 16:9 aspect ratio -->
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
+</div>
+        
+        
+      </div>
+
+    </div>
+  </div>
+</div> 
+  <!-- Modal -->
+
+
+
+      <!-- Workouts -->
+      <h2 class="text-center my-3 my-md-5">Programs</h2>
+      <div class="container">
+          <div class="row justify-content-center">
+              <div class="col-12 col-md-4">
+                  <a href="#" data-toggle="modal" data-src="https://www.youtube.com/embed/TI3RfDBTXNc" data-target="#myModal" class="card mb-3 shadow video-btn"  style="max-height: 200px; border: 0; border-radius: 10px; overflow: hidden;">
+                        <img class="card-img-top" src="./imgs/training1.jpg" alt="">
+                        <div class="exercise-card-overlay card-img-overlay-gradient"></div>
+                        <div class="position-absolute p-3">
+                            <span class="badge badge-dark rounded-sm">Bigginer</span>
+                        </div>
+                        <div class="card-img-overlay p-3 mb-0">
+                            <small class="text-white mb-0">INTRODUCTION</small>
+                            <h5 class="text-white mb-0">Introduction Program</h5>
+                        </div>
+                    </a>
+              </div>
+
+              <div class="col-12 col-md-4">
+                <a href="#" data-toggle="modal" data-src="https://www.youtube.com/embed/J_Gxl0oqsN8" data-target="#myModal" class="card mb-3 shadow video-btn"  style="max-height: 200px; border: 0; border-radius: 10px; overflow: hidden;">
+                      <img class="card-img-top" src="./imgs/training2.jpg" alt="">
+                      <div class="exercise-card-overlay card-img-overlay-gradient"></div>
+                      <div class="position-absolute p-3">
+                          <span class="badge badge-dark rounded-sm">Bigginer</span>
+                      </div>
+                      <div class="card-img-overlay p-3 mb-0">
+                          <small class="text-white mb-0">CALISTHENISC</small>
+                          <h5 class="text-white mb-0">Bigginer Program</h5>
+                      </div>
+                  </a>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <a href="#" data-toggle="modal" data-src="https://www.youtube.com/embed/LH6acDN02Sw" data-target="#myModal" class="card mb-3 shadow video-btn"  style="max-height: 200px; border: 0; border-radius: 10px; overflow: hidden;">
+                      <img class="card-img-top" src="./imgs/training3.jpg" alt="">
+                      <div class="exercise-card-overlay card-img-overlay-gradient"></div>
+                      <div class="position-absolute p-3">
+                          <span class="badge badge-dark rounded-sm">Intermidiate</span>
+                      </div>
+                      <div class="card-img-overlay p-3 mb-0">
+                          <small class="text-white mb-0">CALISTHENISC</small>
+                          <h5 class="text-white mb-0">Introduction Program</h5>
+                      </div>
+                  </a>
+            </div>
+          </div>
+      </div>
+       <!-- Workouts -->
+
+       <!-- Technique Guides -->
+      <h2 class="text-center my-3 my-md-5">Technique Guides</h2>
+      <div class="container">
+          <div class="row justify-content-center">
+              <div class="col-12 col-md-4">
+                  <a href="#" data-toggle="modal" data-src="https://www.youtube.com/embed/KNC5lkoE2Fs" data-target="#myModal"  class="card mb-3 shadow video-btn"  style="max-height: 200px; border: 0; border-radius: 10px; overflow: hidden;">
+                        <img class="card-img-top" src="./imgs/technique1.jpg" alt="">
+                        <div class="exercise-card-overlay card-img-overlay-gradient"></div>
+                        <div class="position-absolute p-3">
+                            <span class="badge badge-dark rounded-sm">Bigginer</span>
+                        </div>
+                        <div class="card-img-overlay p-3 mb-0">
+                            <small class="text-white mb-0">Technique Guide</small>
+                            <h5 class="text-white mb-0">Handstand Technique Guide</h5>
+                        </div>
+                    </a>
+              </div>
+
+              <div class="col-12 col-md-4">
+                <a href="#" data-toggle="modal" data-src="https://www.youtube.com/embed/_iYvlSMgUGE" data-target="#myModal"  class="card mb-3 shadow video-btn"  style="max-height: 200px; border: 0; border-radius: 10px; overflow: hidden;">
+                      <img class="card-img-top" src="./imgs/technique2.jpg" alt="">
+                      <div class="exercise-card-overlay card-img-overlay-gradient"></div>
+                      <div class="position-absolute p-3">
+                          <span class="badge badge-dark rounded-sm">Intermidiate</span>
+                      </div>
+                      <div class="card-img-overlay p-3 mb-0">
+                          <small class="text-white mb-0">Technique Guides</small>
+                          <h5 class="text-white mb-0">Muscle Up Technique Guide</h5>
+                      </div>
+                  </a>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <a href="#" data-toggle="modal" data-src="https://www.youtube.com/embed/XHDri6B9Q5k" data-target="#myModal"  class="card mb-3 shadow video-btn"  style="max-height: 200px; border: 0; border-radius: 10px; overflow: hidden;">
+                      <img class="card-img-top" src="./imgs/technique3.jpg" alt="">
+                      <div class="exercise-card-overlay card-img-overlay-gradient"></div>
+                      <div class="position-absolute p-3">
+                          <span class="badge badge-dark rounded-sm">Bigginer</span>
+                      </div>
+                      <div class="card-img-overlay p-3 mb-0">
+                          <small class="text-white mb-0">Technique Guides</small>
+                          <h5 class="text-white mb-0">Pullover Technique Guide</h5>
+                      </div>
+                  </a>
+            </div>
+          </div>
+      </div>
+       <!-- Technique Guides -->
+
+       <!-- Workouts Library -->
+       <section class="py-4 mt-4" style="background: black;">
+           <h2 class="text-white text-center mt-4">Workouts Library</h2>
+           <p class="text-center text-muted">Choose from lots of carefully designed workouts
+               based on your needs and fitness level
+           </p>
+           <div class="container">
+               <div class="row justify-content-center">
+
+                <div class="col-12 col-md-4">
+                    <a href="#" data-toggle="modal" data-src="https://www.youtube.com/embed/odhJfd_gRio" data-target="#myModal"  class="card mb-3 shadow video-btn"  style="max-height: 200px; border: 0; border-radius: 10px; overflow: hidden;">
+                          <img class="card-img-top" src="./imgs/chest-2.jpg" alt="">
+                          <div class="exercise-card-overlay card-img-overlay-gradient"></div>
+                          <div class="position-absolute p-3">
+                              <span class="badge badge-dark rounded-sm">Chest</span>
+                          </div>
+                          <div class="card-img-overlay p-3 mb-0">
+                              <h5 class="text-white mb-0">Fat Burning</h5>
+                          </div>
+                      </a>
+                </div>
+
+                <div class="col-12 col-md-4">
+                    <a href="#" data-toggle="modal" data-src="https://www.youtube.com/embed/g30vNrUdOZg" data-target="#myModal"  class="card mb-3 shadow video-btn"  style="max-height: 200px; border: 0; border-radius: 10px; overflow: hidden;">
+                          <img class="card-img-top" src="./imgs/whole-body-2.jpg" alt="">
+                          <div class="exercise-card-overlay card-img-overlay-gradient"></div>
+                          <div class="position-absolute p-3">
+                              <span class="badge badge-dark rounded-sm">Whole Body</span>
+                          </div>
+                          <div class="card-img-overlay p-3 mb-0">
+                              <h5 class="text-white mb-0">Strenght Buiding</h5>
+                          </div>
+                      </a>
+                </div>
+
+                <div class="col-12 col-md-4">
+                    <a href="#" data-toggle="modal" data-src="https://www.youtube.com/embed/fYQ5DkT5DJg" data-target="#myModal"  class="card mb-3 shadow video-btn"  style="max-height: 200px; border: 0; border-radius: 10px; overflow: hidden;">
+                          <img class="card-img-top" src="./imgs/legs-2.jpg" alt="">
+                          <div class="exercise-card-overlay card-img-overlay-gradient"></div>
+                          <div class="position-absolute p-3">
+                              <span class="badge badge-dark rounded-sm">Legs</span>
+                          </div>
+                          <div class="card-img-overlay p-3 mb-0">
+                              <h5 class="text-white mb-0">Rep Buiding</h5>
+                          </div>
+                      </a>
+                </div>
+
+                <div class="col-12 col-md-4">
+                    <a href="#" data-toggle="modal" data-src="https://www.youtube.com/embed/qqEw8XH-feI" data-target="#myModal"  class="card mb-3 shadow video-btn"  style="max-height: 200px; border: 0; border-radius: 10px; overflow: hidden;">
+                          <img class="card-img-top" src="./imgs/back-3.jpg" alt="">
+                          <div class="exercise-card-overlay card-img-overlay-gradient"></div>
+                          <div class="position-absolute p-3">
+                              <span class="badge badge-dark rounded-sm">Back</span>
+                          </div>
+                          <div class="card-img-overlay p-3 mb-0">
+                              <h5 class="text-white mb-0">Tabata</h5>
+                          </div>
+                      </a>
+                </div>
+                
+               </div>
+               <div class="text-center">
+                <a href="library.html" class="btn btn-light btn-lg shadow-lg px-5 my-3">View all</a>
+            </div>
+           </div>
+       </section>
+       <!-- Workouts Library -->
+
+       <!-- Get Subscription -->
+       <section class="py-4 my-4">
+           <div class="container">
+               <h2 class="text-center pb-4">Choose the plan that's right for you</h2>
+               <div class="text-center">
+                <a href="#" class="btn btn-primary">Buy Subscription</a>
+
+               </div>
+           </div>
+       </section>
+        <!-- Get Subscription -->
+      
+        <!--Footer-->
+      <footer class="footer bg-dark py-5">
+        <div class="container position-relative">
+          <div class="row">
+            <div class="col-6 col-md-4">
+              <h3 class="text-white">Company</h3>
+              <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a href="#" class="nav-link pl-0">Contact Up</a>
+                </li>
+                <li class="nav-item">
+                  <a href="./shop/shop.html" class="nav-link pl-0">Shop</a>
+                </li>
+                <li class="nav-item">
+                  <a href="training.html" class="nav-link pl-0">Training</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-6 col-md-4">
+              <h3 class="text-white">Social</h3>
+              <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a href="#" class="nav-link pl-0">Youtube</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link pl-0">Instagram</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link pl-0">FaceBook</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link pl-0">Twiter</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-4">
+              <h3 class="text-white">Get The App</h3>
+              <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a href="#" class="nav-link pl-0">
+                    <i class="fab fa-apple mr-1" style="font-size: 21px;">
+                      App Store</i
+                    >
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link pl-0">
+                    <i class="fab fa-google-play" style="font-size: 21px;"></i>
+                      Google Play</i
+                    >
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <hr style="border-top-color: rgba(255, 255, 255, 0.2);" />
+          <div class="d-flex justify-content-tetween pt-3">
+            <p class="text-white mb-0">
+              Copyright Calisthenisc Online LLC 2020
+            </p>
+          </div>
+        </div>
+      </footer>
+      <!--Footer End-->
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./scripts/main.js"></script>
+  </body>
+</html>      

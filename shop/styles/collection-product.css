@@ -1,0 +1,179 @@
+.item-product-container {
+  width: 90%;
+  margin: auto;
+}
+
+.item-product-container .img-container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.item-product-container .text-container {
+  width: 100%;
+}
+
+.item-product-container .text-container h1 {
+  text-align: center;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.item-product-container .text-container h2 {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 300;
+  margin-top: 30px;
+  color: #6b0000;
+}
+
+.item-product-container .text-container .btn-container {
+  width: 90%;
+  max-width: 400px;
+  height: 40px;
+  -webkit-transform: skewX(-15deg);
+          transform: skewX(-15deg);
+  overflow: hidden;
+  margin: 30px auto;
+}
+
+.item-product-container .text-container .btn-container .addToCart {
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  color: white;
+  background: black;
+  font-size: 0.7rem;
+  letter-spacing: 2px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+}
+
+.item-product-container .text-container p {
+  font-size: 0.8rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  color: #3f3f3f;
+  line-height: 1.4rem;
+}
+
+.item-product-container .text-container ul {
+  margin-left: 30px;
+  margin-bottom: 30px;
+  margin-top: 10;
+}
+
+.item-product-container .text-container ul li {
+  font-size: 0.7rem;
+  font-weight: 300;
+  color: #3f3f3f;
+  letter-spacing: 1px;
+  line-height: 1.2rem;
+}
+
+.item-product-container .text-container h3 {
+  font-size: 0.8rem;
+  margin-bottom: 20px;
+  color: #3f3f3f;
+}
+
+@media only screen and (min-width: 900px) {
+  .item-product-container {
+    width: 90%;
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .item-product-container .img-container {
+    width: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .item-product-container .text-container {
+    width: 50%;
+    margin-top: 100px;
+  }
+  .item-product-container .text-container h1 {
+    text-align: center;
+    font-weight: 300;
+    text-transform: uppercase;
+  }
+  .item-product-container .text-container h2 {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 300;
+    margin-top: 30px;
+  }
+  .item-product-container .text-container .btn-container {
+    width: 90%;
+    max-width: 400px;
+    height: 40px;
+    -webkit-transform: skewX(-15deg);
+            transform: skewX(-15deg);
+    overflow: hidden;
+    margin: 30px auto;
+  }
+  .item-product-container .text-container .btn-container .addToCart {
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    color: white;
+    background: black;
+    font-size: 0.7rem;
+    letter-spacing: 2px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-decoration: none;
+  }
+  .item-product-container .text-container p {
+    font-size: 0.8rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+  }
+  .item-product-container .text-container ul {
+    margin-left: 30px;
+    margin-bottom: 30px;
+    margin-top: 10;
+  }
+  .item-product-container .text-container ul li {
+    font-size: 0.8rem;
+    font-weight: 300;
+  }
+  .item-product-container .text-container h3 {
+    font-size: 0.8rem;
+    margin-bottom: 20px;
+  }
+}
+/*# sourceMappingURL=collection-product.css.map */

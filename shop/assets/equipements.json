@@ -1,0 +1,70 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "img": { "url": "/shop/imgs/Products/black-band.jpg" },
+      "name": "black resistance band",
+      "price": 18.99
+    },
+    {
+      "id": 2,
+      "img": { "url": "/shop/imgs/Products/green-band.jpg" },
+      "name": "green resistance band",
+      "price": 29.99
+    },
+    {
+      "id": 3,
+      "img": { "url": "/shop/imgs/Products/red-band.jpg" },
+      "name": "red resistance band",
+      "price": 12.99
+    },
+    {
+      "id": 4,
+      "img": { "url": "/shop/imgs/Products/violet-band.jpg" },
+      "name": "violet resistance band",
+      "price": 24.99
+    },
+    {
+      "id": 25,
+      "img": { "url": "/shop/imgs/Products/belt.jpg" },
+      "name": "belt",
+      "price": 34.99
+    },
+    {
+      "id": 27,
+      "img": { "url": "/shop/imgs/Products/jumprope.jpg" },
+      "name": "jumprope",
+      "price": 7.99
+    },
+    {
+      "id": 28,
+      "img": { "url": "/shop/imgs/Products/parallettes.jpg" },
+      "name": "parallettes",
+      "price": 79.99
+    },
+    {
+      "id": 29,
+      "img": { "url": "/shop/imgs/Products/rings.jpg" },
+      "name": "rings",
+      "price": 49.99
+    },
+    {
+      "id": 31,
+      "img": { "url": "/shop/imgs/Products/thenx-ankle-weights.jpg" },
+      "name": "thenx ankle weights",
+      "price": 29.99
+    },
+    {
+      "id": 33,
+      "img": { "url": "/shop/imgs/Products/weight-vest.jpg" },
+      "name": "weight vest",
+      "price": 179.99
+    },
+    {
+      "id": 34,
+      "img": { "url": "/shop/imgs/Products/wrist-warps.jpg" },
+      "name": "wrist warps",
+      "price": 14.99
+    }
+  ]
+}

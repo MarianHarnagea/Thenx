@@ -1,0 +1,22 @@
+{
+  "products": [
+    {
+      "id": 26,
+      "img": { "url": "/shop/imgs/Products/gym-bag.jpg" },
+      "name": "gym bag",
+      "price": 34.99
+    },
+    {
+      "id": 30,
+      "img": { "url": "/shop/imgs/Products/socks.jpg" },
+      "name": "socks",
+      "price": 13.99
+    },
+    {
+      "id": 32,
+      "img": { "url": "/shop/imgs/Products/thenx-hat.jpg" },
+      "name": "thenx hat",
+      "price": 24.99
+    }
+  ]
+}
