@@ -371,45 +371,20 @@ body {
 }
 
 .products-container {
-  width: 100%;
+  width: 90%;
   margin: auto;
 
-  .single-product-container {
-    width: 90%;
-    max-width: 600px;
-    margin: 10px auto;
-    border: 1px solid black;
+  h1 {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+  }
 
-    .text-product-container {
-      width: 100%;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-
-      h1 {
-        font-size: 1.2rem;
-        margin-top: 20px;
-      }
-
-      h2 {
-        font-size: 1rem;
-        margin-top: 20px;
-      }
-    }
-
-    .img-product-container {
-      width: 100%;
-      overflow: hidden;
-      display: flex;
-      justify-content: center;
-
-      img {
-        width: 70%;
-        max-width: 300px;
-        margin: auto;
-      }
-    }
+  h2 {
+    font-size: 1rem;
+    margin-top: 20px;
+    text-align: center;
   }
 }
 
@@ -496,6 +471,55 @@ body {
   justify-content: center;
 }
 
+.subscribe-section {
+  margin: 50px 0;
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .subscribe-form {
+    display: flex;
+    height: 35px;
+    position: relative;
+    @media (max-width: 500px) {
+      width: 90%;
+      margin: auto;
+    }
+    input {
+      width: 300px;
+      height: 100%;
+      margin: 0;
+      @media (max-width: 500px) {
+        width: 100%;
+      }
+    }
+
+    .btn-container {
+      position: absolute;
+      top: 0;
+      right: -5px;
+      width: 100px;
+      height: 100%;
+      transform: skewX(-15deg);
+      overflow: hidden;
+      background: rgb(255, 255, 255);
+
+      .subscribe-btn {
+        width: 100%;
+        height: 100%;
+        color: rgb(0, 0, 0);
+        font-size: 0.7rem;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        transform: skewX(15deg);
+        background: transparent;
+        border: none;
+      }
+    }
+  }
+}
+
 .app-container {
   width: 90%;
   margin: 40px auto;
@@ -540,7 +564,7 @@ body {
 .footer {
   background: black;
   width: 100%;
-  height: 50vh;
+  // height: 50vh;
   display: flex;
   flex-direction: column;
 
@@ -1068,7 +1092,7 @@ body {
 
   .footer {
     background: black;
-    height: 60vh;
+    // height: 60vh;
     display: flex;
     flex-direction: row;
 
@@ -1138,3 +1162,51 @@ body {
     }
   }
 }
+
+.videos {
+  width: 90%;
+  margin: auto;
+
+  .no-radius {
+    border-radius: 0px;
+  }
+
+  .card-img-overlay {
+    position: absolute;
+    top: auto;
+  }
+  .exercise-card-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+}
+
+// Modal
+.modal-dialog {
+  max-width: 1000px;
+  margin: 30px auto;
+  @media (max-width: 1040px) {
+    margin: 30px 10px;
+  }
+}
+.modal-body {
+  position: relative;
+  padding: 0px;
+}
+.close {
+  position: absolute;
+  right: -30px;
+  top: 0;
+  z-index: 999;
+  font-size: 2rem;
+  font-weight: normal;
+  color: #fff;
+  opacity: 1;
+}
+// Modal End

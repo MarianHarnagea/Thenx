@@ -478,59 +478,21 @@ body {
 }
 
 .products-container {
-  width: 100%;
+  width: 90%;
   margin: auto;
 }
 
-.products-container .single-product-container {
-  width: 90%;
-  max-width: 600px;
-  margin: 10px auto;
-  border: 1px solid black;
-}
-
-.products-container .single-product-container .text-product-container {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.products-container .single-product-container .text-product-container h1 {
+.products-container h1 {
   font-size: 1.2rem;
   margin-top: 20px;
+  text-align: center;
+  letter-spacing: 2px;
 }
 
-.products-container .single-product-container .text-product-container h2 {
+.products-container h2 {
   font-size: 1rem;
   margin-top: 20px;
-}
-
-.products-container .single-product-container .img-product-container {
-  width: 100%;
-  overflow: hidden;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.products-container .single-product-container .img-product-container img {
-  width: 70%;
-  max-width: 300px;
-  margin: auto;
+  text-align: center;
 }
 
 .product-btn-container {
@@ -630,6 +592,73 @@ body {
           justify-content: center;
 }
 
+.subscribe-section {
+  margin: 50px 0;
+  padding: 50px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.subscribe-section .subscribe-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 35px;
+  position: relative;
+}
+
+@media (max-width: 500px) {
+  .subscribe-section .subscribe-form {
+    width: 90%;
+    margin: auto;
+  }
+}
+
+.subscribe-section .subscribe-form input {
+  width: 300px;
+  height: 100%;
+  margin: 0;
+}
+
+@media (max-width: 500px) {
+  .subscribe-section .subscribe-form input {
+    width: 100%;
+  }
+}
+
+.subscribe-section .subscribe-form .btn-container {
+  position: absolute;
+  top: 0;
+  right: -5px;
+  width: 100px;
+  height: 100%;
+  -webkit-transform: skewX(-15deg);
+          transform: skewX(-15deg);
+  overflow: hidden;
+  background: white;
+}
+
+.subscribe-section .subscribe-form .btn-container .subscribe-btn {
+  width: 100%;
+  height: 100%;
+  color: black;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  -webkit-transform: skewX(15deg);
+          transform: skewX(15deg);
+  background: transparent;
+  border: none;
+}
+
 .app-container {
   width: 90%;
   margin: 40px auto;
@@ -678,7 +707,6 @@ body {
 .footer {
   background: black;
   width: 100%;
-  height: 50vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1297,7 +1325,6 @@ body {
   }
   .footer {
     background: black;
-    height: 60vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1378,5 +1405,57 @@ body {
     height: 20px;
     cursor: pointer;
   }
+}
+
+.videos {
+  width: 90%;
+  margin: auto;
+}
+
+.videos .no-radius {
+  border-radius: 0px;
+}
+
+.videos .card-img-overlay {
+  position: absolute;
+  top: auto;
+}
+
+.videos .exercise-card-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-dialog {
+  max-width: 1000px;
+  margin: 30px auto;
+}
+
+@media (max-width: 1040px) {
+  .modal-dialog {
+    margin: 30px 10px;
+  }
+}
+
+.modal-body {
+  position: relative;
+  padding: 0px;
+}
+
+.close {
+  position: absolute;
+  right: -30px;
+  top: 0;
+  z-index: 999;
+  font-size: 2rem;
+  font-weight: normal;
+  color: #fff;
+  opacity: 1;
 }
 /*# sourceMappingURL=shop.css.map */

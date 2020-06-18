@@ -12,6 +12,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
     />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="./styles/shop.css" />
   </head>
   <body>
@@ -72,7 +73,6 @@
 
       <div class="navigation-text">
         <div class="nav-title">
-          <h1 class="title">THE OFFICIAL</h1>
           <h1 class="sub-title">THENX SHOP</h2>
         </div>
         <p class="nav-text">Tops | Joggers | Equipement | Accessories</p>
@@ -239,32 +239,58 @@
 
 
     <!-- Products Section -->
-    <div class="products-container">
-      <div class="single-product-container">
-      <div class="text-product-container">
-        <h1>HERIA WEIGHT VEST</h1>
-        <h2>$179.99</h2>
-        <div class="product-btn-container">
-          <a href="./product-weight-vest.html">SHOP NOW</a>
+    <div class="products-container my-4">
+
+      <div class="row">
+        <div class="col-12 col-md-6  p-3">
+
+            <div class="row">
+
+              <div class="col-12 col-sm-6 my-auto order-sm-1 order-md-0">
+                <h1>HERIA WEIGHT VEST</h1>
+                <h2>$179.99</h2>
+                <div class="product-btn-container mx-auto">
+                  <a href="./product-weight-vest.html">SHOP NOW</a>
+                </div>
+              </div>
+
+              <div class="col-12 col-sm-6 text-center">
+                
+                  <img class="img-fluid " src="/shop/imgs/weight_vest.webp" alt="">
+                
+              </div>
+
+            </div>
+
+     
         </div>
-      </div>
-      <div class="img-product-container">
-        <img src="/shop/imgs/weight_vest.webp" alt="">
-      </div>
+
+        <hr>
+
+        <div class="col-12 col-md-6 p-3">
+            <div class="row">
+
+              <div class="col-12 col-sm-6 my-auto">
+                <h1>THENX GYM BAG</h1>
+                <h2>$34.99</h2>
+                <div class="product-btn-container mx-auto">
+                  <a href="./collection-gymbag.html">SHOP NOW</a>
+                </div>
+              </div>
+
+              <div class="col-12 col-sm-6 text-center ">
+
+                  <img class="img-fluid" src="/shop/imgs/GYM_bag.JPG" alt="">
+
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
       </div>
 
-      <div class="single-product-container">
-      <div class="text-product-container">
-        <h1>THENX GYM BAG</h1>
-        <h2>$34.99</h2>
-        <div class="product-btn-container">
-          <a href="./collection-gymbag.html">SHOP NOW</a>
-        </div>
-      </div>
-      <div class="img-product-container">
-        <img src="/shop/imgs/GYM_bag.JPG" alt="">
-      </div>
-      </div>
     </div>
     <!-- Products Section End -->
     
@@ -330,6 +356,78 @@
   </div>
     <!-- popular Products End-->
 
+    <!-- Subscribe Section -->
+    <div class="container-fluid subscribe-section" style="background: black; color: white;">
+      <h2 class="text-uppercase mb-4" style="letter-spacing: 3px;">Sign up and save</h2>
+      <p class=" text-center mb-4" style="font-weight: lighter;">Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.</p>
+      <div class="subscribe-form">
+        <input type="text">
+        <div class="btn-container">
+          <button class="subscribe-btn">Subscribe</button>
+        </div>
+        
+      </div>
+    </div>
+    <!-- Subscribe Section End-->
+
+    <!-- Videos Section -->
+    <section class="videos">
+      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog " role="document">
+          <div class="modal-content">
+      
+            
+            <div class="modal-body">
+      
+             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>        
+              <!-- 16:9 aspect ratio -->
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
+      </div>
+              
+              
+            </div>
+      
+          </div>
+        </div>
+      </div> 
+
+      <h2 class="text-center text-uppercase mb-4">Training & Workout Videos </h2>
+
+      <div class="product-btn-container m-auto ">
+        <a href="/training.html" target="blank">See More</a>
+      </div>
+
+      <div class="row mt-4">
+
+        <div class="col-12 col-md-4 ">
+          <a href="#" data-toggle="modal" data-src="https://www.youtube.com/embed/rXPLkz0cVoI" data-target="#myModal" class="card mb-3 shadow video-btn"  style="max-height: 200px; border: 0; overflow: hidden;">
+            <img class="card-img-top" src="/shop/imgs/6minabs_540x.jpg" alt="">
+            <div class="exercise-card-overlay"></div>
+          </a>
+        </div>
+
+        <div class="col-12 col-md-4">
+          <a href="#" data-toggle="modal" data-src="https://www.youtube.com/embed/Zr1QiSCYSwE" data-target="#myModal" class="card mb-3 shadow video-btn"  style="max-height: 200px; border: 0; overflow: hidden;">
+            <img class="card-img-top" src="/shop/imgs/chairs_540x.jpg" alt="">
+            <div class="exercise-card-overlay"></div>
+          </a>
+        </div>
+
+        <div class="col-12 col-md-4">
+          <a href="#" data-toggle="modal" data-src="https://www.youtube.com/embed/7JbDb1rAyqs" data-target="#myModal" class="card mb-3 shadow video-btn"  style="max-height: 200px; border: 0; overflow: hidden;">
+            <img class="card-img-top" src="/shop/imgs/7minabplank_540x.jpg" alt="">
+            <div class="exercise-card-overlay"></div>         
+          </a>
+        </div>
+
+
+      </div>
+    </section>
+    <!-- Videos Section End-->
+
     <!-- Download App Section -->
     <div class="app-container">
       <h1>Download The App </h1>
@@ -353,8 +451,10 @@
     </div>
     <!-- Download App Section End-->
 
+    
+
     <!-- Footer -->
-    <div class="footer">
+    <div class="footer py-3">
       <div class="footer-text">
         <h2>THENX</h2>
         <p>Elite Calisthenics Discipline. 
@@ -437,6 +537,22 @@
     <!-- Page Cover -->
     <div class="cover"></div>
     <!-- Page Cover End -->
+
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"
+  ></script>
     <script src="/shop/scripts/shop.js"></script>
   </body>
 </html>
