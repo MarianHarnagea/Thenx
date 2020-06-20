@@ -6,6 +6,11 @@
   font-family: "Fjalla One", sans-serif;
 }
 
+.shop-page-container {
+  width: 100vw;
+  overflow: hidden;
+}
+
 .navigation {
   position: relative;
   width: 100%;
