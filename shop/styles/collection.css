@@ -6,8 +6,10 @@
   font-family: "Fjalla One", sans-serif;
 }
 
+html,
 body {
-  overflow-x: hidden;
+  position: relative;
+  overflow-x: hidden !important;
 }
 
 .navigation {

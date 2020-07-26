@@ -7,8 +7,10 @@ $primary: #b7b7b7;
   font-family: "Fjalla One", sans-serif;
 }
 // Nav, Menu, Footer
+html,
 body {
-  overflow-x: hidden;
+  position: relative;
+  overflow-x: hidden !important ;
 }
 
 .navigation {

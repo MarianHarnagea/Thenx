@@ -1,6 +1,12 @@
 $primary: #b7b7b7;
 $secondary: rgb(63, 63, 63);
 
+html,
+body {
+  position: relative;
+  overflow-x: hidden !important ;
+}
+
 .item-product-container {
   width: 90%;
   margin: auto;

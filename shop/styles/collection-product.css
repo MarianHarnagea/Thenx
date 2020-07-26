@@ -1,3 +1,9 @@
+html,
+body {
+  position: relative;
+  overflow-x: hidden !important;
+}
+
 .item-product-container {
   width: 90%;
   margin: auto;
