@@ -11,6 +11,11 @@ body {
   overflow-x: hidden;
 }
 
+.shop-page-container {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
 .navigation {
   position: relative;
   width: 100%;
