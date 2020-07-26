@@ -6,7 +6,8 @@
   font-family: "Fjalla One", sans-serif;
 }
 
-.shop-page-container {
+html,
+body {
   overflow-x: hidden;
 }
 

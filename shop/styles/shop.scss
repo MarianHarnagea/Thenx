@@ -8,9 +8,15 @@ $secondary: rgb(63, 63, 63);
   font-family: "Fjalla One", sans-serif;
 }
 
-.shop-page-container {
+html,
+body {
   overflow-x: hidden;
 }
+
+// .shop-page-container {
+//   width: 100vw;
+//   overflow-x: hidden;
+// }
 
 .navigation {
   position: relative;
