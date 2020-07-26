@@ -4,6 +4,9 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-family: "Fjalla One", sans-serif;
+}
+
+.shop-page-container {
   overflow-x: hidden;
 }
 
