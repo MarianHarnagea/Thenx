@@ -10,13 +10,8 @@ $secondary: rgb(63, 63, 63);
 
 html,
 body {
-  // width: 100vw;
-  overflow-x: hidden;
-}
-
-.shop-page-container {
-  width: 100vw;
-  overflow-x: hidden;
+  position: relative;
+  overflow-x: hidden !important ;
 }
 
 .navigation {
@@ -380,7 +375,7 @@ body {
 }
 
 .overflow {
-  overflow-y: hidden;
+  overflow-y: hidden !important ;
 }
 
 .products-container {

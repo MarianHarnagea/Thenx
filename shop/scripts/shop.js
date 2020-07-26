@@ -7,7 +7,7 @@ const bagBtn = document.querySelector(".bag-btn");
 const closeCartBtn = document.querySelector(".close-cart-btn");
 
 const cover = document.querySelector(".cover");
-const body = document.querySelector("body");
+const body = document.querySelector(".shop-page-container");
 
 // Open - Close Menu
 openMenuBtn.addEventListener("click", () => {
